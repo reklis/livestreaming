@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71C8BF513CBE5580015DF3C /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D71C8BF413CBE5580015DF3C /* AppSettings.m */; };
+		D788C51213CBCDD8000DAB1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C51113CBCDD8000DAB1A /* UIKit.framework */; };
+		D788C51413CBCDD8000DAB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C51313CBCDD8000DAB1A /* Foundation.framework */; };
+		D788C51613CBCDD8000DAB1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C51513CBCDD8000DAB1A /* CoreGraphics.framework */; };
+		D788C51C13CBCDD8000DAB1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D788C51A13CBCDD8000DAB1A /* InfoPlist.strings */; };
+		D788C51E13CBCDD8000DAB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D788C51D13CBCDD8000DAB1A /* main.m */; };
+		D788C52213CBCDD8000DAB1A /* livestreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D788C52113CBCDD8000DAB1A /* livestreamAppDelegate.m */; };
+		D788C52513CBCDD8000DAB1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D788C52413CBCDD8000DAB1A /* MainViewController.m */; };
+		D788C52813CBCDD8000DAB1A /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D788C52713CBCDD8000DAB1A /* FlipsideViewController.m */; };
+		D788C52B13CBCDD8000DAB1A /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D788C52913CBCDD8000DAB1A /* MainViewController_iPhone.xib */; };
+		D788C52E13CBCDD8000DAB1A /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D788C52C13CBCDD8000DAB1A /* MainViewController_iPad.xib */; };
+		D788C53113CBCDD8000DAB1A /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D788C52F13CBCDD8000DAB1A /* FlipsideViewController.xib */; };
+		D788C53913CBCF5B000DAB1A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C53713CBCF15000DAB1A /* MapKit.framework */; };
+		D788C53B13CBD008000DAB1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C53A13CBD008000DAB1A /* CoreLocation.framework */; };
+		D788C53E13CBD568000DAB1A /* CameraFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = D788C53D13CBD568000DAB1A /* CameraFeed.m */; };
+		D788C54513CBDF92000DAB1A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C54313CBDF92000DAB1A /* CoreMedia.framework */; };
+		D788C54613CBDF92000DAB1A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C54413CBDF92000DAB1A /* MediaPlayer.framework */; };
+		D788C54813CBDF99000DAB1A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D788C54713CBDF99000DAB1A /* AVFoundation.framework */; };
+		D788C54A13CBE04F000DAB1A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D788C54913CBE04F000DAB1A /* Settings.bundle */; };
+		D7BEF57C13CD1A2300714224 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BEF57B13CD1A2300714224 /* Icon.png */; };
+		D7BEF57E13CD1A5B00714224 /* Icon~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BEF57D13CD1A5B00714224 /* Icon~iPad.png */; };
+		D7BEF58013CD1AA600714224 /* Icon~Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BEF57F13CD1AA600714224 /* Icon~Retina.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D71C8BF313CBE5580015DF3C /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		D71C8BF413CBE5580015DF3C /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		D788C50D13CBCDD8000DAB1A /* livestream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livestream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D788C51113CBCDD8000DAB1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D788C51313CBCDD8000DAB1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D788C51513CBCDD8000DAB1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D788C51913CBCDD8000DAB1A /* livestream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "livestream-Info.plist"; sourceTree = "<group>"; };
+		D788C51B13CBCDD8000DAB1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D788C51D13CBCDD8000DAB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D788C51F13CBCDD8000DAB1A /* livestream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "livestream-Prefix.pch"; sourceTree = "<group>"; };
+		D788C52013CBCDD8000DAB1A /* livestreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = livestreamAppDelegate.h; sourceTree = "<group>"; };
+		D788C52113CBCDD8000DAB1A /* livestreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = livestreamAppDelegate.m; sourceTree = "<group>"; };
+		D788C52313CBCDD8000DAB1A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D788C52413CBCDD8000DAB1A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D788C52613CBCDD8000DAB1A /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		D788C52713CBCDD8000DAB1A /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		D788C52A13CBCDD8000DAB1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		D788C52D13CBCDD8000DAB1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPad.xib; sourceTree = "<group>"; };
+		D788C53013CBCDD8000DAB1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		D788C53713CBCF15000DAB1A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D788C53A13CBD008000DAB1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D788C53C13CBD568000DAB1A /* CameraFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFeed.h; sourceTree = "<group>"; };
+		D788C53D13CBD568000DAB1A /* CameraFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFeed.m; sourceTree = "<group>"; };
+		D788C54313CBDF92000DAB1A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D788C54413CBDF92000DAB1A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D788C54713CBDF99000DAB1A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D788C54913CBE04F000DAB1A /* Settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Settings.bundle; sourceTree = "<group>"; };
+		D7BEF57B13CD1A2300714224 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D7BEF57D13CD1A5B00714224 /* Icon~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~iPad.png"; sourceTree = "<group>"; };
+		D7BEF57F13CD1AA600714224 /* Icon~Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~Retina.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D788C50A13CBCDD8000DAB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D788C54813CBDF99000DAB1A /* AVFoundation.framework in Frameworks */,
+				D788C54513CBDF92000DAB1A /* CoreMedia.framework in Frameworks */,
+				D788C54613CBDF92000DAB1A /* MediaPlayer.framework in Frameworks */,
+				D788C53B13CBD008000DAB1A /* CoreLocation.framework in Frameworks */,
+				D788C53913CBCF5B000DAB1A /* MapKit.framework in Frameworks */,
+				D788C51213CBCDD8000DAB1A /* UIKit.framework in Frameworks */,
+				D788C51413CBCDD8000DAB1A /* Foundation.framework in Frameworks */,
+				D788C51613CBCDD8000DAB1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D788C50213CBCDD8000DAB1A = {
+			isa = PBXGroup;
+			children = (
+				D788C51713CBCDD8000DAB1A /* livestream */,
+				D788C51013CBCDD8000DAB1A /* Frameworks */,
+				D788C50E13CBCDD8000DAB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D788C50E13CBCDD8000DAB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D788C50D13CBCDD8000DAB1A /* livestream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D788C51013CBCDD8000DAB1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D788C54713CBDF99000DAB1A /* AVFoundation.framework */,
+				D788C54313CBDF92000DAB1A /* CoreMedia.framework */,
+				D788C54413CBDF92000DAB1A /* MediaPlayer.framework */,
+				D788C53A13CBD008000DAB1A /* CoreLocation.framework */,
+				D788C53713CBCF15000DAB1A /* MapKit.framework */,
+				D788C51113CBCDD8000DAB1A /* UIKit.framework */,
+				D788C51313CBCDD8000DAB1A /* Foundation.framework */,
+				D788C51513CBCDD8000DAB1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D788C51713CBCDD8000DAB1A /* livestream */ = {
+			isa = PBXGroup;
+			children = (
+				D788C52013CBCDD8000DAB1A /* livestreamAppDelegate.h */,
+				D788C52113CBCDD8000DAB1A /* livestreamAppDelegate.m */,
+				D788C52313CBCDD8000DAB1A /* MainViewController.h */,
+				D788C52413CBCDD8000DAB1A /* MainViewController.m */,
+				D788C52613CBCDD8000DAB1A /* FlipsideViewController.h */,
+				D788C52713CBCDD8000DAB1A /* FlipsideViewController.m */,
+				D788C52913CBCDD8000DAB1A /* MainViewController_iPhone.xib */,
+				D788C52C13CBCDD8000DAB1A /* MainViewController_iPad.xib */,
+				D788C52F13CBCDD8000DAB1A /* FlipsideViewController.xib */,
+				D788C53C13CBD568000DAB1A /* CameraFeed.h */,
+				D788C53D13CBD568000DAB1A /* CameraFeed.m */,
+				D71C8BF313CBE5580015DF3C /* AppSettings.h */,
+				D71C8BF413CBE5580015DF3C /* AppSettings.m */,
+				D7BEF58313CD1C8400714224 /* Images */,
+				D788C51813CBCDD8000DAB1A /* Supporting Files */,
+			);
+			path = livestream;
+			sourceTree = "<group>";
+		};
+		D788C51813CBCDD8000DAB1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D788C51913CBCDD8000DAB1A /* livestream-Info.plist */,
+				D788C51A13CBCDD8000DAB1A /* InfoPlist.strings */,
+				D788C51D13CBCDD8000DAB1A /* main.m */,
+				D788C51F13CBCDD8000DAB1A /* livestream-Prefix.pch */,
+				D788C54913CBE04F000DAB1A /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7BEF58313CD1C8400714224 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7BEF57F13CD1AA600714224 /* Icon~Retina.png */,
+				D7BEF57D13CD1A5B00714224 /* Icon~iPad.png */,
+				D7BEF57B13CD1A2300714224 /* Icon.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D788C50C13CBCDD8000DAB1A /* livestream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D788C53413CBCDD8000DAB1A /* Build configuration list for PBXNativeTarget "livestream" */;
+			buildPhases = (
+				D788C50913CBCDD8000DAB1A /* Sources */,
+				D788C50A13CBCDD8000DAB1A /* Frameworks */,
+				D788C50B13CBCDD8000DAB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = livestream;
+			productName = livestream;
+			productReference = D788C50D13CBCDD8000DAB1A /* livestream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D788C50413CBCDD8000DAB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D788C50713CBCDD8000DAB1A /* Build configuration list for PBXProject "livestream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D788C50213CBCDD8000DAB1A;
+			productRefGroup = D788C50E13CBCDD8000DAB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D788C50C13CBCDD8000DAB1A /* livestream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D788C50B13CBCDD8000DAB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D788C51C13CBCDD8000DAB1A /* InfoPlist.strings in Resources */,
+				D788C52B13CBCDD8000DAB1A /* MainViewController_iPhone.xib in Resources */,
+				D788C52E13CBCDD8000DAB1A /* MainViewController_iPad.xib in Resources */,
+				D788C53113CBCDD8000DAB1A /* FlipsideViewController.xib in Resources */,
+				D788C54A13CBE04F000DAB1A /* Settings.bundle in Resources */,
+				D7BEF57C13CD1A2300714224 /* Icon.png in Resources */,
+				D7BEF57E13CD1A5B00714224 /* Icon~iPad.png in Resources */,
+				D7BEF58013CD1AA600714224 /* Icon~Retina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D788C50913CBCDD8000DAB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D788C51E13CBCDD8000DAB1A /* main.m in Sources */,
+				D788C52213CBCDD8000DAB1A /* livestreamAppDelegate.m in Sources */,
+				D788C52513CBCDD8000DAB1A /* MainViewController.m in Sources */,
+				D788C52813CBCDD8000DAB1A /* FlipsideViewController.m in Sources */,
+				D788C53E13CBD568000DAB1A /* CameraFeed.m in Sources */,
+				D71C8BF513CBE5580015DF3C /* AppSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D788C51A13CBCDD8000DAB1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D788C51B13CBCDD8000DAB1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D788C52913CBCDD8000DAB1A /* MainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D788C52A13CBCDD8000DAB1A /* en */,
+			);
+			name = MainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D788C52C13CBCDD8000DAB1A /* MainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D788C52D13CBCDD8000DAB1A /* en */,
+			);
+			name = MainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		D788C52F13CBCDD8000DAB1A /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D788C53013CBCDD8000DAB1A /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D788C53213CBCDD8000DAB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D788C53313CBCDD8000DAB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D788C53513CBCDD8000DAB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "livestream/livestream-Prefix.pch";
+				INFOPLIST_FILE = "livestream/livestream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D788C53613CBCDD8000DAB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "livestream/livestream-Prefix.pch";
+				INFOPLIST_FILE = "livestream/livestream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D788C50713CBCDD8000DAB1A /* Build configuration list for PBXProject "livestream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D788C53213CBCDD8000DAB1A /* Debug */,
+				D788C53313CBCDD8000DAB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D788C53413CBCDD8000DAB1A /* Build configuration list for PBXNativeTarget "livestream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D788C53513CBCDD8000DAB1A /* Debug */,
+				D788C53613CBCDD8000DAB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D788C50413CBCDD8000DAB1A /* Project object */;
+}

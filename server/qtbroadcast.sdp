@@ -1,0 +1,20 @@
+v=0
+o=- 37 2965370158 IN IP4 127.0.0.0
+s=QuickTime
+t=0 0
+a=range:npt=now-
+a=isma-compliance:2,2.0,2
+m=audio 5432 RTP/AVP 96
+c=IN IP4 10.0.1.2
+b=AS:16
+a=rtpmap:96 mpeg4-generic/22050/1
+a=fmtp:96 profile-level-id=15;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1388
+a=mpeg4-esid:101
+m=video 5434 RTP/AVP 97
+c=IN IP4 10.0.1.2
+b=AS:1372
+a=rtpmap:97 H264/90000
+a=fmtp:97 packetization-mode=1;profile-level-id=4D401E;sprop-parameter-sets=J01AHqkYFAe2ANQYBBrbCte98BA=,KN4JF6A=
+a=mpeg4-esid:201
+a=cliprect:0,0,480,640
+a=framesize:97 640-480
